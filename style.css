@@ -238,3 +238,27 @@ article a:hover {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+
+/* --- ESTILIZAÇÃO DA BARRA DE ROLAGEM (SCROLLBAR) --- */
+
+/* 1. Define a largura da barra inteira */
+::-webkit-scrollbar {
+    width: 12px;               /* Largura vertical */
+}
+
+/* 2. Define o fundo por onde a barra corre (o trilho) */
+::-webkit-scrollbar-track {
+    background: #1e1e1e;      /* Cor escura (quase igual ao fundo do site) */
+}
+
+/* 3. Define a "pílula" que você arrasta (o polegar) */
+::-webkit-scrollbar-thumb {
+    background-color: #555;   /* Cinza médio */
+    border-radius: 20px;      /* Bordas bem redondas */
+    border: 3px solid #1e1e1e; /* Cria um espaço entre a pílula e o fundo */
+}
+
+/* 4. Efeito visual quando passa o mouse em cima */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;   /* Fica mais claro para indicar interação */
+}
