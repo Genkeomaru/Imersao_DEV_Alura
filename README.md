@@ -21,5 +21,9 @@ Uma aplicação web interativa que permite pesquisar e visualizar informações 
 
 👉 **[Clique aqui para ver o projeto rodando](https://genkeomaru.github.io/Imersao_DEV_Alura/)**
 
+## ❔Curiosidade
+
+Os dados deste projeto não foram digitados manualmente. Criei um script em Node.js integrado à API do Gemini (Google) para gerar e popular o data.json automaticamente com descrições e tags precisas.
+
 ---
 Developed with 💜 by [Guilherme Rodrigues](https://github.com/Genkeomaru)
