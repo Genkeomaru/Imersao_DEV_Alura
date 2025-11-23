@@ -29,7 +29,7 @@ async function IniciarBusca() {
 function renderizarCards(cards) {
     cardContainer.innerHTML = ""; // Limpa os cards existentes
     if (cards.length === 0) {
-        cardContainer.innerHTML = "<p>Nenhum resultado encontrado.</p>";
+        cardContainer.innerHTML = '<p class="mensagem-erro">⚠️ Nenhum resultado encontrado.</p>'
         return;
     }
     for (let card of cards) {
